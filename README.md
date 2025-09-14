@@ -47,7 +47,7 @@ uv run main.py --host [TARGET_HOST] --port [START_PORT]/[END_PORT]
 To scan ports 1 to 1024 on `localhost`:
 
 ```bash
-uv run main.py --host localhost --port 1/1024
+uv run main.py --host 127.0.0.1 --port 1/1024
 ```
 
 To scan ports 80 to 443 on `example.com`:
@@ -72,4 +72,4 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 
 ## License
 
-This project is licensed under the MIT License - see the `LICENSE` file for details (if one exists, otherwise consider adding one).
+This project is licensed under the MIT License - see the `LICENSE` file for details.
