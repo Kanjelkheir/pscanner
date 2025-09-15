@@ -1,4 +1,3 @@
-import argparse
 from scanner import utils
 from scanner import scanner
 
